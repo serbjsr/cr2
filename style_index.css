@@ -1,0 +1,20 @@
+
+  .nav-link-custom {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.25rem; /* Установите нужный размер шрифта */
+  }
+
+  body { background-image: url("background.avif"); background-size: cover; background-position: center; }
+
+  p { background-color: beige; padding: 10px; margin-bottom: 20px; border-radius: 10px;}
+
+h2 { background-color: beige; padding: 10px; margin-top: 0; margin-bottom: 20px; border-radius: 10px;}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+

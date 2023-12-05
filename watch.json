@@ -1,0 +1,45 @@
+[
+    {
+      "id": "1",
+      "title": "Casio vintage",
+      "vendor_code": "111",
+      "price": 2000,
+      "img": "монтана.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Casio W218HD",
+      "vendor_code": "222",
+
+      "price": 1500,
+      "img": "касио2.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Casio AQ-230A",
+      "vendor_code": "333",
+      "price": 3000,
+      "img": "касио4.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Casio EDIFICE EF-324L",
+      "vendor_code": "444",
+      "price": 6000,
+      "img": "касио5.webp"
+    }
+    ,
+    {
+      "id": "5",
+      "title": "Casio EDIFICE EFB-700D",
+      "vendor_code": "555",
+      "price": 5000,
+      "img": "касио6.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Casio D327R",
+      "vendor_code": "666",
+      "price": 1300,
+      "img": "касио3.jpg"
+    }]
