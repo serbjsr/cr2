@@ -2,7 +2,7 @@ async function getResponce() {
     try {
         let response = await fetch("watch.json");
         let content = await response.json(); // Используйте .json() вместо .text() и JSON.parse()
-        content = content.splice(0, 11);
+
         console.log(content);
         let node_for_insert = document.getElementById("node_for_insert");
         for (let key in content) {
