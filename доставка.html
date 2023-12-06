@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style_index.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Bootstrap Example</title>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav w-100 justify-content-between">
+        <a class="nav-item nav-link nav-link-custom" href="index.html"><img src="casio.png" alt="Logo" style="height: 100%; max-height: 100px;"></a>
+        <a class="nav-item nav-link nav-link-custom" href="index.html">Главная</a>
+<a class="nav-item nav-link nav-link-custom" href="каталог.html">Каталог</a>
+<b class="nav-item nav-link nav-link-custom" href="доставка.html">Доставка</b>
+<a class="nav-item nav-link nav-link-custom" href="#section2">Контакты</a>
+      </div>
+    </div>
+  </nav>
+  
+  <form action="https://www.yandex.ru/search?" method="get" name="user">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="form-group">
+            <label for="delivery">Доставка:</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="home" name="delivery" value="На дом" checked>
+              <label class="form-check-label" for="home">На дом</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="punct" name="delivery" value="В пункт выдачи">
+              <label class="form-check-label" for="punct">В пункт выдачи</label>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="last-name">Фамилия:</label>
+            <input type="text" class="form-control" id="last-name" name="last-name" value="Пупкин">
+          </div>
+          
+          <div class="form-group">
+            <label for="first-name">Имя:</label>
+            <input type="text" class="form-control" id="first-name" name="first-name" value="Вася">
+          </div>
+          
+          <div class="form-group">
+            <label for="adress">Ваш адрес:</label>
+            <input type="text" class="form-control" id="adress" name="adress" value="г. Москва, Пресненская наб., 15">
+          </div>
+          
+          <div class="form-group">
+            <label for="phone">Мобильный телефон:</label>
+            <input type="tel" class="form-control" id="phone" name="phone" value="+79528127654">
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Электронная почта:</label>
+            <input type="email" class="form-control" id="email" name="email" value="vasya@yandex.ru">
+          </div>
+          
+          <div class="form-group">
+            <label for="message-date">Дата отправки сообщения:</label>
+            <input type="date" class="form-control" id="message-date" name="message-date" value="2023-12-06">
+          </div>
+          
+          <div class="form-group">
+            <label for="rate">Вам понравился сайт нашего магазин? Оцените его от 1 до 10</label>
+            <input type="number" class="form-control" id="num" name="num" value="10">
+          </div>
+          
+          <div class="form-group">
+            <input type="submit" class="btn btn-primary" value="Отправить">
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <div class="container mt-5" id="section2">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Контакты</h5>
+        <p class="card-text">Телефон: +79643245680</p>
+        <a href="https://vk.com/serjkami" class="card-link">Наша группа вконтакте</a>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

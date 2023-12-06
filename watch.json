@@ -42,4 +42,39 @@
       "vendor_code": "666",
       "price": 1300,
       "img": "касио3.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Casio D327R",
+      "vendor_code": "777",
+      "price": 7500,
+      "img": "касио7.jpeg"
+    },
+    {
+      "id": "8",
+      "title": "Casio D327R",
+      "vendor_code": "888",
+      "price": 4300,
+      "img": "касио8.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Casio D327R",
+      "vendor_code": "999",
+      "price": 3400,
+      "img": "касио9.webp"
+    },
+    {
+      "id": "10",
+      "title": "Casio D327R",
+      "vendor_code": "1000",
+      "price": 4400,
+      "img": "касио10.webp"
+    },
+    {
+      "id": "11",
+      "title": "Casio D327R",
+      "vendor_code": "1100",
+      "price": 5100,
+      "img": "касио11.jpg"
     }]
